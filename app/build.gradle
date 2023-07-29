@@ -70,6 +70,12 @@ dependencies {
     implementation 'com.github.f0ris.sweetalert:library:1.6.2'
 
     implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
+    implementation 'me.relex:circleindicator:2.1.6'
+
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
 }
 kapt {
     correctErrorTypes = true

@@ -2,8 +2,14 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.OnlineDhobi" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#bfbfbf</item>
+        <item name="windowActionBar">false</item>
     </style>
 
     <style name="Theme.OnlineDhobi" parent="Base.Theme.OnlineDhobi" />
+
+    <style name="noActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#bfbfbf</item>
+    </style>
 </resources>
